@@ -1,0 +1,28 @@
+.page-item .btn-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0px;
+  text-decoration: none;
+}
+
+.page-item .btn-link:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.page-item:last-child .btn-link {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.page-item.active .btn-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
